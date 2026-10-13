@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.0.0/MyLittlePOS-1.0.0.dmg",
+  "sha256": "3eafe4d780b677cfd89c094f20be71559ff4f10bf0b19171badb3687ff039336",
+  "notas": "Punto de venta completo: caja por turno (apertura, movimientos y cierre), venta con productos, descuentos y promociones. Gestión de inventario con categorías, impuestos y control de caducidades por lote. Clientes, reportes y tablero de indicadores del negocio. Actualizaciones automáticas desde la app (Acerca de → Buscar actualizaciones)."
+}
