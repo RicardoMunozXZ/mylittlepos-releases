@@ -24,4 +24,11 @@ la app la descarga, verifica el hash y lanza el instalador.
 
 ## Documentación
 
-- **Manual del usuario**: próximamente en [`docs/`](docs/).
+Manuales de usuario en [`docs/`](docs/):
+
+- [Punto de Venta](docs/manual-punto-de-venta.md) — turnos, carrito, cobro, corte de caja y atajos.
+- [Productos](docs/manual-productos.md) — catálogo, precios, stock, lotes y bajas.
+- [Categorías](docs/manual-categorias.md) — agrupar productos.
+- [Inventario](docs/manual-inventario.md) — las tabs de la sección, incl. Impuestos.
+
+*Faltan: Compras, Clientes/Proveedores, Descuentos y promociones, Reportes, Configuración y Caja — se irán agregando.*
