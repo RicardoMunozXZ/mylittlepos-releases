@@ -1,47 +1,31 @@
-# MyLittlePOS — Repositorio de artefactos
+# MyLittlePOS
 
-Repo **público y SOLO de distribución**: acá viven los instaladores y el manifiesto
-`latest.json` que la app consulta desde **Acerca de → Buscar actualizaciones**.
-No hay código fuente: el proyecto vive en `ramm-tec/mylittlepos-desktop` (Bitbucket).
+**Punto de venta (POS) de escritorio** para negocios: punto de venta, productos e
+inventario, categorías, impuestos, control de caducidades, clientes, descuentos y
+promociones, reportes y tablero de indicadores. Corre en Windows, macOS y Linux.
 
-La app está hardcodeada a este hosting:
-`https://github.com/RicardoMunozXZ/mylittlepos-releases/raw/main/latest.json`
-(constante `MANIFEST_URL` en `features/actualizaciones/data/ManifestActualizacionRepository.kt`).
+Este repositorio es **solo de distribución**: acá se publican los instaladores y
+el manifiesto que la app consulta para buscar actualizaciones. No hay código
+fuente.
 
-## Flujo de publicación (una versión nueva)
+## Instalación
 
-1. Bump de `appVersion` en `gradle.properties` del repo de código (fuente única).
-2. Compilar el instalador en Windows (el `.exe` sale de ahí).
-3. En el repo de código, generar el manifest:
-   ```bash
-   ./scripts/release.sh dist/MyLittlePOS-<versión>.exe \
-       "https://github.com/RicardoMunozXZ/mylittlepos-releases/raw/main/MyLittlePOS-<versión>.exe" \
-       "Notas de la versión"
-   ```
-   El script calcula el sha256 y escribe `dist/latest.json`.
-4. Copiar al repo espejo el instalador Y el `latest.json`, commitear y pushear a `main`:
-   ```bash
-   cp dist/MyLittlePOS-<versión>.exe dist/latest.json /ruta/al/espejo/
-   cd /ruta/al/espejo
-   git add . && git commit -m "release <versión>" && git push
-   ```
-5. Verificar: abrir la URL raw del `latest.json` en el navegador.
+Elegí tu sistema operativo, descargá el instalador y ejecutalo:
 
-## Contrato de `latest.json`
+| SO | Instalador | Pasos |
+|----|-----------|-------|
+| **Windows** | `MyLittlePOS-1.0.0.exe` | Descargar y ejecutar el `.exe`, seguir el asistente. |
+| **macOS** | `MyLittlePOS-1.0.0.dmg` | Abrir el `.dmg` y arrastrar MyLittlePOS a **Aplicaciones**. |
+| **Linux** | `MyLittlePOS-1.0.0.deb` | `sudo apt install ./MyLittlePOS-1.0.0.deb` o doble clic en el `.deb`. |
 
-```json
-{
-  "version": "1.1.0",
-  "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/raw/main/MyLittlePOS-1.1.0.exe",
-  "sha256": "<hash del instalador>",
-  "notas": "Texto libre mostrado al usuario"
-}
-```
+> Los instaladores de cada versión viven en este repo. Buscá el de la versión más
+> reciente en la lista de archivos arriba de esta página.
 
-El `sha256` se verifica antes de lanzar el instalador: si no coincide, la descarga
-se borra y la app informa el error. No publicar un manifest apuntando a un
-instalador distinto al que se hash-eó.
+## Actualizaciones
 
-**Atención con el crecimiento**: cada versión agrega su `.exe` al historial de git.
-Si el repo crece demasiado, conviene mover los instaladores a GitHub *Releases*
-(assets) y apuntar `url` ahí; `latest.json` puede quedarse en `raw/main`.
+Desde la app: **Acerca de → Buscar actualizaciones**. Si hay una versión nueva,
+la app la descarga, verifica el hash y lanza el instalador.
+
+## Documentación
+
+- **Manual del usuario**: próximamente en [`docs/`](docs/).
