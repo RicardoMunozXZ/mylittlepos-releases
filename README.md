@@ -14,12 +14,12 @@ Elegí tu sistema operativo, descargá el instalador y ejecutalo:
 
 | SO | Instalador | Pasos |
 |----|-----------|-------|
-| **Windows** | `MyLittlePOS-1.0.0.exe` | Descargar y ejecutar el `.exe`, seguir el asistente. |
-| **macOS** | `MyLittlePOS-1.0.0.dmg` | Abrir el `.dmg` y arrastrar MyLittlePOS a **Aplicaciones**. |
-| **Linux** | `MyLittlePOS-1.0.0.deb` | `sudo apt install ./MyLittlePOS-1.0.0.deb` o doble clic en el `.deb`. |
+| **Windows** | `releases/MyLittlePOS-1.0.0.exe` | Descargar y ejecutar el `.exe`, seguir el asistente. |
+| **macOS** | `releases/MyLittlePOS-1.0.0.dmg` | Abrir el `.dmg` y arrastrar MyLittlePOS a **Aplicaciones**. |
+| **Linux** | `releases/MyLittlePOS-1.0.0.deb` | `sudo apt install ./MyLittlePOS-1.0.0.deb` o doble clic en el `.deb`. |
 
-> Los instaladores de cada versión viven en este repo. Buscá el de la versión más
-> reciente en la lista de archivos arriba de esta página.
+> Los instaladores viven en la carpeta **[`releases/`](releases/)** de este repo,
+> uno por versión. El manifest `latest.json` (en la raíz) siempre apunta al más reciente.
 
 ## Actualizaciones
 
