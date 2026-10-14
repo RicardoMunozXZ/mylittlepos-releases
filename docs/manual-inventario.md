@@ -20,7 +20,8 @@ bajas. Se documenta por separado:
 
 Registro de mercadería comprada a proveedores: la compra actualiza el stock y el costo de
 los productos, y su pago puede registrarse como salida de caja del turno abierto.
-*Manual de Compras: próximamente.*
+
+→ **[Manual de Compras](manual-compras.md)**
 
 ## Tab Categorías
 
