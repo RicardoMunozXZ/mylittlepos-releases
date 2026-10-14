@@ -13,19 +13,19 @@ Cada catálogo es un tab con su propia lista y su propio formulario.
 
 ### Crear un cliente
 
-1. Andá a **Terceros → tab Clientes** y tocá **Nuevo**.
-2. Cargá el **nombre** (es lo único obligatorio) y, si querés, **teléfono**, **correo**,
-   **RFC** y **dirección** (son todos opcionales; si los cargás, se comprueban los
+1. Ve a **Terceros → tab Clientes** y toca **Nuevo**.
+2. Carga el **nombre** (es lo único obligatorio) y, si quieres, **teléfono**, **correo**,
+   **RFC** y **dirección** (son todos opcionales; si los cargas, se comprueban los
    formatos: teléfono solo dígitos, correo con @, RFC con su formato).
-3. Tocá **Crear**. El sistema le asigna un código único tipo `CLI-0001`.
+3. Toca **Crear**. El sistema le asigna un código único tipo `CLI-0001`.
 
 No se puede crear dos clientes con el mismo nombre (se comparan ignorando mayúsculas,
 espacios y acentos).
 
 ### Editar o dar de baja
 
-- Tocá el ícono de **lápiz** de una fila para editarla.
-- Tocá el ícono de **papelera** para dar de baja. La baja es **lógica**: el cliente no
+- Toca el ícono de **lápiz** de una fila para editarla.
+- Toca el ícono de **papelera** para dar de baja. La baja es **lógica**: el cliente no
   se borra, queda marcado **Inactivo** — las ventas pasadas lo siguen citando.
 
 ### El cliente Mostrador
@@ -33,7 +33,7 @@ espacios y acentos).
 La lista incluye siempre **Mostrador (sin cliente)**: es el cliente del sistema para
 las ventas sin cliente identificado. **No se edita ni se da de baja.**
 
-> En el cobro del PV se puede elegir a qué cliente le vendés; si no se elige nadie,
+> En el cobro del PV se puede elegir a qué cliente le vendes; si no se elige nadie,
 > la venta queda para Mostrador.
 
 ![Lista de clientes con el cliente Mostrador del sistema](imagenes/manual-terceros-01-clientes.png)
@@ -45,7 +45,7 @@ las ventas sin cliente identificado. **No se edita ni se da de baja.**
 Funciona igual que Clientes, con su propio catálogo:
 
 1. **Terceros → tab Proveedores → Nuevo**.
-2. Cargá el **nombre** (obligatorio); teléfono, correo, RFC y dirección son opcionales.
+2. Carga el **nombre** (obligatorio); teléfono, correo, RFC y dirección son opcionales.
 3. **Crear**: cada proveedor recibe un código tipo `PRV-0001`.
 
 Las compras se cargan eligiendo proveedor (ver [Manual de Compras](manual-compras.md));

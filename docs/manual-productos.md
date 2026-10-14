@@ -2,7 +2,7 @@
 
 > Corresponde a la versión 1.0.0. Desde el menú lateral: **Inventario → tab Productos**.
 
-El catálogo de productos es la base de todo el sistema: lo que está acá se puede vender
+El catálogo de productos es la base de todo el sistema: lo que está aquí se puede vender
 en el Punto de Venta.
 
 ---
@@ -11,14 +11,14 @@ en el Punto de Venta.
 
 La tab **Productos** muestra la tabla de productos con:
 
-- **Búsqueda**: tipeá parte del código o de la descripción para filtrar.
+- **Búsqueda**: escribe parte del código o de la descripción para filtrar.
 - **Filtro por categoría**: panel lateral que arranca en **"Todas"**.
 
 ![Catálogo de productos con el filtro de categorías en "Todas"](imagenes/manual-productos-01-tabla.png)
 
 ## 2. Crear un producto
 
-Tocá el botón de **nuevo producto** y completá el formulario:
+Toca el botón de **nuevo producto** y completa el formulario:
 
 ### Campos básicos
 
@@ -26,14 +26,14 @@ Tocá el botón de **nuevo producto** y completá el formulario:
 |-------|-------|
 | **Código** | Obligatorio. Es el que lee el escáner de código de barras. |
 | **Descripción** | Obligatoria. Nombre del producto tal como se muestra y se imprime. |
-| **Costo** | Cuánto te cuesta a vos (solo números). |
+| **Costo** | Lo que te cuesta al comprar (solo números). |
 | **Precio** | Precio de venta (solo números). |
 | **Existencias** | Stock actual (solo números). |
 | **Stock mínimo** | Piso de alerta de reposición (solo números). |
 | **Tipo de unidad** | Pieza, kilo, etc. Por defecto: Pieza. |
 | **Sub-unidad** | Segunda unidad (ej.: caja de 10). Al cambiar el tipo de unidad se limpia, porque pertenece al catálogo anterior. |
 | **Categoría** | Se elige del catálogo de categorías. |
-| **Imagen** | Seleccioná una foto del producto o quitá la que tenga. |
+| **Imagen** | Selecciona una foto del producto o quita la que tenga. |
 
 ![Formulario de producto con los campos básicos](imagenes/manual-productos-02-formulario.png)
 
@@ -41,12 +41,12 @@ Tocá el botón de **nuevo producto** y completá el formulario:
 
 El formulario tiene cuatro interruptores que habilitan secciones adicionales:
 
-- **Impuestos**: marcá las tasas del catálogo (IVA, IEPS, etc.) que aplican al producto.
-  Desde ahí mismo también podés **crear una tasa nueva** (nombre + %) y queda aplicada al
+- **Impuestos**: marca las tasas del catálogo (IVA, IEPS, etc.) que aplican al producto.
+  Desde ahí mismo también puedes **crear una tasa nueva** (nombre + %) y queda aplicada al
   producto automáticamente.
 - **Lotes**: para productos con control de vencimiento. Cada lote tiene **número de
   lote**, **fecha de vencimiento** y **existencias** que entran a ese lote.
-  - El **día es opcional**: si dejás el día vacío, el sistema toma el **último día del
+  - El **día es opcional**: si dejas el día vacío, el sistema toma el **último día del
     mes** (ej.: "vence 03/2026" queda como válido hasta el 31 de marzo de 2026). Esa
     convención se muestra en el propio formulario.
   - Con lotes, en el PV al agregar el producto te pide elegir de qué lote sale.
@@ -56,13 +56,13 @@ El formulario tiene cuatro interruptores que habilitan secciones adicionales:
 
 ![Formulario con el check Impuestos marcado y las tasas IVA/IEPS](imagenes/manual-productos-03-formulario-impuestos.png)
 
-Tocá **Guardar**: el producto se guarda y aparece un aviso de éxito **sin cerrar el
-formulario**, por si querés seguir ajustando datos.
+Toca **Guardar**: el producto se guarda y aparece un aviso de éxito **sin cerrar el
+formulario**, por si quieres seguir ajustando datos.
 
 ## 3. Editar un producto
 
-Hacé clic en el producto de la tabla: se abre el formulario con los datos cargados.
-Ajustá lo que haga falta y guardá.
+Haz clic en el producto de la tabla: se abre el formulario con los datos cargados.
+Ajusta lo que haga falta y guarda.
 
 > **Historial de precios**: cada vez que cambia el costo o el precio, el sistema registra
 > el valor nuevo con la fecha. Así se puede responder "por qué este producto cuesta lo que
@@ -71,20 +71,20 @@ Ajustá lo que haga falta y guardá.
 
 ## 4. Dar de baja un producto
 
-Desde el producto en la tabla, pedí **Eliminar** y confirmá. Es una **baja lógica**:
+Desde el producto en la tabla, pide **Eliminar** y confirma. Es una **baja lógica**:
 
 - el producto **sale del catálogo**: ya no aparece en la lista ni se puede vender en el PV;
 - **conserva todo**: historial de precios, movimientos y existencias siguen contando en el
   sistema (una compra o devolución posterior no lo "revive" por accidente).
 
-Si necesitás volver a venderlo más adelante, se crea de nuevo con el mismo código.
+Si necesitas volver a venderlo más adelante, se crea de nuevo con el mismo código.
 
 ## 5. Errores comunes
 
 | Aviso | Causa |
 |-------|-------|
 | Código / descripción marcados en rojo | Faltan los dos campos obligatorios. |
-| "Producto sin stock" en el PV | Las existencias llegaron a 0. Cargá stock o registrá la compra que lo repone. |
+| "Producto sin stock" en el PV | Las existencias llegaron a 0. Carga stock o registra la compra que lo repone. |
 | El producto no aparece en el PV | Puede estar dado de baja o el filtro de categoría lo está ocultando. |
 
 ---

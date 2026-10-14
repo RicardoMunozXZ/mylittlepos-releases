@@ -9,9 +9,9 @@ filtrar el catálogo y organizar los reportes.
 
 ## 1. Crear una categoría
 
-1. Andá a **Inventario → tab Categorías**.
-2. Tocá el botón de **nueva categoría**.
-3. Cargá el **nombre** (obligatorio) y guardá.
+1. Ve a **Inventario → tab Categorías**.
+2. Toca el botón de **nueva categoría**.
+3. Carga el **nombre** (obligatorio) y guarda.
 
 No se pueden crear dos categorías con el mismo nombre, aunque cambien las mayúsculas o
 tengan acentos: "Bebidas" y "bebidas" son la misma.
@@ -20,19 +20,19 @@ tengan acentos: "Bebidas" y "bebidas" son la misma.
 
 ## 2. Editar una categoría
 
-Hacé clic en la categoría de la lista, cambiá el nombre y guardá.
+Haz clic en la categoría de la lista, cambia el nombre y guarda.
 
 ![Lista de categorías con los botones de editar y eliminar](imagenes/manual-categorias-01-tabla.png)
 
 ## 3. Eliminar una categoría
 
-Pedí **Eliminar** y confirmá. El aviso te advierte que **los productos asignados quedarán
+Pide **Eliminar** y confirma. El aviso te advierte que **los productos asignados quedarán
 sin categoría**: no se borra ningún producto, solo pierden esa etiqueta y hay que
 reasignarlos desde Inventario → Productos.
 
 ## 4. Usar las categorías
 
-- **En Productos**: elegí la categoría de cada producto al crearlo o editarlo.
+- **En Productos**: elige la categoría de cada producto al crearlo o editarlo.
 - **En el catálogo de productos**: el panel lateral "Todas" filtra la tabla por la
   categoría elegida.
 

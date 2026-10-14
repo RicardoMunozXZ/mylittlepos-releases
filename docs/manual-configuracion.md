@@ -13,9 +13,9 @@ Tiene cinco tabs: **Negocio**, **Empleados**, **Permisos**, **Sistema** y **Acer
 
 Los datos que identifican al negocio (aparecen, por ejemplo, en los tickets):
 
-1. Cargá **Nombre *** y **Giro *** (obligatorios) y, si querés, **Dirección**,
+1. Carga **Nombre *** y **Giro *** (obligatorios) y, si quieres, **Dirección**,
    **Teléfono**, **RFC** y **Correo**.
-2. Tocá **Guardar**.
+2. Toca **Guardar**.
 
 ![Tab Negocio con los datos del negocio y el botón Guardar](imagenes/manual-config-01-negocio.png)
 
@@ -23,8 +23,8 @@ Los datos que identifican al negocio (aparecen, por ejemplo, en los tickets):
 
 Quienes pueden usar el sistema, cada uno con su alias, código y rol.
 
-- **Nuevo**: cargá **Alias *** y **Código *** (lo que se teclea en el login),
-  nombre completo, **rol** y **contraseña**, y guardá.
+- **Nuevo**: carga **Alias *** y **Código *** (lo que se teclea en el login),
+  nombre completo, **rol** y **contraseña**, y guarda.
 - El ícono de **llave** de cada fila abre los **permisos** de ese empleado.
 - **Lápiz** para editar (al editar, la contraseña vacía no se cambia) y
   **papelera** para eliminar, con confirmación.
@@ -33,8 +33,8 @@ Quienes pueden usar el sistema, cada uno con su alias, código y rol.
 
 ## Tab Permisos
 
-**Permisos por rol**: qué puede ver y modificar cada rol. Marcá los permisos de cada
-rol y tocá **Guardar**. Las demás pantallas (y las secciones de Sistema) se muestran
+**Permisos por rol**: qué puede ver y modificar cada rol. Marca los permisos de cada
+rol y toca **Guardar**. Las demás pantallas (y las secciones de Sistema) se muestran
 o esconden según estos permisos.
 
 ![Matriz de permisos por rol con el rol Cajero seleccionado](imagenes/manual-config-05-permisos.png)
@@ -48,7 +48,7 @@ Un listado de secciones; al tocar una, su formulario ocupa la pantalla y
 
 ### Configuración de Ticket
 
-**Encabezado** y **pie** del ticket. Tocá **Guardar Ticket**.
+**Encabezado** y **pie** del ticket. Toca **Guardar Ticket**.
 
 ![Formulario de Configuración de Ticket con encabezado y pie](imagenes/manual-config-06-ticket.png)
 
@@ -56,10 +56,10 @@ Un listado de secciones; al tocar una, su formulario ocupa la pantalla y
 
 Para la impresora térmica ESC/POS:
 
-1. Tocá **Detectar puertos** y elegí el **Puerto** detectado (o escribilo a mano).
-2. Cargá **ID Dispositivo** y elegí el **Tamaño de Papel** (80 mm o 58 mm).
-3. Marcá **Imprimir ticket al confirmar la venta** si querés que salga solo.
-4. Tocá **Imprimir prueba** para comprobar la conexión y **Guardar Impresora**.
+1. Toca **Detectar puertos** y elige el **Puerto** detectado (o escrÃ­belo a mano).
+2. Carga **ID Dispositivo** y elige el **Tamaño de Papel** (80 mm o 58 mm).
+3. Marca **Imprimir ticket al confirmar la venta** si quieres que salga solo.
+4. Toca **Imprimir prueba** para comprobar la conexión y **Guardar Impresora**.
 
 ![Configuración de Impresora con puerto, dispositivo y tamaño de papel](imagenes/manual-config-03-impresora.png)
 
@@ -68,13 +68,13 @@ Para la impresora térmica ESC/POS:
 **Carpeta base** donde quedan los reportes exportados desde Reportes (vacío =
 Documentos/MyLittlePOS/reportes). Con **Elegir carpeta…** se elige con el explorador,
 y la opción de subcarpeta por período agrupa los archivos por rango de fechas.
-Tocá **Guardar Ruta de Exportación**.
+Toca **Guardar Ruta de Exportación**.
 
 ![Configuración de la ruta de exportación con carpeta base y subcarpeta por período](imagenes/manual-config-07-exportacion.png)
 
 ### Atajos de teclado
 
-Teclas que disparan acciones del PV. Tocá **Cambiar** en una fila y apretá la tecla
+Teclas que disparan acciones del PV. Toca **Cambiar** en una fila y aprieta la tecla
 nueva: acepta **F1–F12** o combinaciones con **Ctrl/Alt** (una tecla sola chocaría con
 lo que se está tipeando). **Esc** queda libre para cancelar. Si la tecla ya está
 usada por otra acción, se avisa.
@@ -88,9 +88,9 @@ información del negocio. Pide **confirmar la contraseña**; no se puede deshace
 
 Genera una **copia completa** de la base de datos en un archivo `.realm`.
 
-1. Elegí la **Carpeta de destino** con **Elegir carpeta…** (vacío =
+1. Elige la **Carpeta de destino** con **Elegir carpeta…** (vacío =
    Documentos/MyLittlePOS/backups).
-2. Tocá **Crear copia de seguridad**.
+2. Toca **Crear copia de seguridad**.
 
 ![Configuración de copia de seguridad con carpeta destino y botones de guardar y crear](imagenes/manual-config-08-backup.png)
 

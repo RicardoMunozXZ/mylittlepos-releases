@@ -6,7 +6,7 @@ promociones, reportes y tablero de indicadores. Corre en Windows, macOS y Linux.
 
 ## Instalación
 
-Descargá el instalador de tu sistema operativo desde la página de
+Descarga el instalador de tu sistema operativo desde la página de
 **[Releases](https://github.com/RicardoMunozXZ/mylittlepos-releases/releases)**:
 
 | SO | Instalador | Pasos |

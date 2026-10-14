@@ -2,7 +2,7 @@
 
 > Corresponde a la versión 1.0.0. Desde el menú lateral: **Descuentos**.
 
-Las promociones aplican descuentos automáticamente en el Punto de Venta: se crean acá
+Las promociones aplican descuentos automáticamente en el Punto de Venta: se crean aquí
 una vez y, mientras estén vigentes, el PV las aplica solo al cobrar.
 
 ## La lista
@@ -20,22 +20,22 @@ Cada promoción aparece como una tarjeta con su tipo y su estado:
 
 ## Crear una promoción
 
-1. Andá a **Descuentos** y tocá **Nueva**.
-2. Cargá la **descripción** (el nombre que vas a reconocer en la lista).
-3. Elegí el **Tipo**:
-   - **%**: descuento porcentual sobre el importe (cargá el porcentaje).
-   - **2x1** / **3x2**: llevás dos y pagás uno, o llevás tres y pagás dos.
+1. Ve a **Descuentos** y toca **Nueva**.
+2. Carga la **descripción** (el nombre que vas a reconocer en la lista).
+3. Elige el **Tipo**:
+   - **%**: descuento porcentual sobre el importe (carga el porcentaje).
+   - **2x1** / **3x2**: llevas dos y pagas uno, o llevas tres y pagas dos.
    - **$**: **precio fijo** por unidad.
-   - **C+L** (**compra y llévate**): comprás N unidades y llevás M gratis. Por defecto
-     el regalo es el mismo producto; con **Seleccionar regalo…** podés elegir otros
+   - **C+L** (**compra y llévate**): compras N unidades y llevas M gratis. Por defecto
+     el regalo es el mismo producto; con **Seleccionar regalo…** puedes elegir otros
      productos de regalo.
    - **Caducidad**: descuento progresivo según lo que falte para vencer (ver abajo).
-4. Elegí **Aplica a**: **Producto**, **Categoría** o **Lote**, y tocá **Seleccionar…**
+4. Elige **Aplica a**: **Producto**, **Categoría** o **Lote**, y toca **Seleccionar…**
    para marcar a qué se aplica.
-5. **Período de vigencia** (opcional): marcá el período y elegí **Desde** y **Hasta**
+5. **Período de vigencia** (opcional): marca el período y elige **Desde** y **Hasta**
    con el calendario. Sin período, la promoción se prende y apaga solo con el
    interruptor **Activa**.
-6. Tocá **Crear**.
+6. Toca **Crear**.
 
 ### Descuento por caducidad
 

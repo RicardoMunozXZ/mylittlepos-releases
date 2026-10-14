@@ -7,8 +7,8 @@ movimiento de productos, stock bajo y clientes.
 
 ## Período y pestañas
 
-1. Elegí el rango de fechas en **Período:** (desde / hasta).
-2. Elegí el reporte entre las pestañas:
+1. Elige el rango de fechas en **Período:** (desde / hasta).
+2. Elige el reporte entre las pestañas:
    - **Ventas** · **Compras** · **Productos** · **Stock Bajo** · **Clientes**.
 3. Cada reporte tiene dos vistas, con el conmutador **Resumen** / **Detalle**:
    los KPI y agregados, o el listado fila por fila.
@@ -21,7 +21,7 @@ movimiento de productos, stock bajo y clientes.
 
 ### Ventas (Detalle)
 
-Una fila por venta: fecha, método, cantidad de artículos y total. Tocá
+Una fila por venta: fecha, método, cantidad de artículos y total. Toca
 **Ver productos** para ver el desglose de esa venta (cantidades, precios y descuentos).
 
 ![Reporte de Ventas en vista Resumen con los KPIs del período](imagenes/manual-reportes-01-ventas.png)
@@ -59,8 +59,8 @@ qué compró cada uno.
 
 ## Exportar
 
-1. Tocá **Exportar** (arriba a la derecha).
-2. Elegí el formato:
+1. Toca **Exportar** (arriba a la derecha).
+2. Elige el formato:
    - **CSV (Excel)**: archivo de texto separado por comas.
    - **PDF (Impresión)**: documento listo para imprimir.
 3. Aparece **✅ Exportado exitosamente** con la carpeta donde se guardó el archivo.
