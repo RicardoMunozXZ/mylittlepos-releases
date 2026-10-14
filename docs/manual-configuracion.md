@@ -29,11 +29,15 @@ Quienes pueden usar el sistema, cada uno con su alias, código y rol.
 - **Lápiz** para editar (al editar, la contraseña vacía no se cambia) y
   **papelera** para eliminar, con confirmación.
 
+![Lista de empleados con su rol y las acciones de permisos, editar y eliminar](imagenes/manual-config-04-empleados.png)
+
 ## Tab Permisos
 
 **Permisos por rol**: qué puede ver y modificar cada rol. Marcá los permisos de cada
 rol y tocá **Guardar**. Las demás pantallas (y las secciones de Sistema) se muestran
 o esconden según estos permisos.
+
+![Matriz de permisos por rol con el rol Cajero seleccionado](imagenes/manual-config-05-permisos.png)
 
 ## Tab Sistema
 
