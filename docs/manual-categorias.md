@@ -16,9 +16,13 @@ filtrar el catálogo y organizar los reportes.
 No se pueden crear dos categorías con el mismo nombre, aunque cambien las mayúsculas o
 tengan acentos: "Bebidas" y "bebidas" son la misma.
 
+![Diálogo Nueva Categoría con el nombre cargado](imagenes/manual-categorias-02-nueva.png)
+
 ## 2. Editar una categoría
 
 Hacé clic en la categoría de la lista, cambiá el nombre y guardá.
+
+![Lista de categorías con los botones de editar y eliminar](imagenes/manual-categorias-01-tabla.png)
 
 ## 3. Eliminar una categoría
 
@@ -29,8 +33,10 @@ reasignarlos desde Inventario → Productos.
 ## 4. Usar las categorías
 
 - **En Productos**: elegí la categoría de cada producto al crearlo o editarlo.
-- **En el catálogo de productos**: el desplegable "Todas" filtra la tabla por la
+- **En el catálogo de productos**: el panel lateral "Todas" filtra la tabla por la
   categoría elegida.
+
+![Catálogo de productos con el filtro de categorías en "Todas"](imagenes/manual-productos-01-tabla.png)
 
 ---
 

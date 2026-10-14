@@ -12,7 +12,9 @@ en el Punto de Venta.
 La tab **Productos** muestra la tabla de productos con:
 
 - **Búsqueda**: tipeá parte del código o de la descripción para filtrar.
-- **Filtro por categoría**: desplegable que arranca en "Todas".
+- **Filtro por categoría**: panel lateral que arranca en **"Todas"**.
+
+![Catálogo de productos con el filtro de categorías en "Todas"](imagenes/manual-productos-01-tabla.png)
 
 ## 2. Crear un producto
 
@@ -33,6 +35,8 @@ Tocá el botón de **nuevo producto** y completá el formulario:
 | **Categoría** | Se elige del catálogo de categorías. |
 | **Imagen** | Seleccioná una foto del producto o quitá la que tenga. |
 
+![Formulario de producto con los campos básicos](imagenes/manual-productos-02-formulario.png)
+
 ### Secciones opcionales (checks)
 
 El formulario tiene cuatro interruptores que habilitan secciones adicionales:
@@ -49,6 +53,8 @@ El formulario tiene cuatro interruptores que habilitan secciones adicionales:
 - **Medicamento**: habilita los **compuestos activos** del producto (nombre, cantidad y
   unidad, ej.: 500 mg).
 - **Stock mínimo**: habilita el control de piso de reposición en el producto.
+
+![Formulario con el check Impuestos marcado y las tasas IVA/IEPS](imagenes/manual-productos-03-formulario-impuestos.png)
 
 Tocá **Guardar**: el producto se guarda y aparece un aviso de éxito **sin cerrar el
 formulario**, por si querés seguir ajustando datos.

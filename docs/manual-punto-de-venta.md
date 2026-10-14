@@ -16,6 +16,8 @@ Al entrar al Punto de Venta, si no hay un turno abierto aparece la pantalla de a
 
 Todo lo que se venda o se mueva de caja durante el día queda ligado a ese turno.
 
+![Apertura de turno: saldo inicial y botón Abrir turno](imagenes/manual-pv-01-apertura-turno.png)
+
 ## 2. La pantalla de venta
 
 Con el turno abierto, la pantalla tiene tres zonas:
@@ -26,6 +28,8 @@ Con el turno abierto, la pantalla tiene tres zonas:
   productos que coincide.
 - **Carrito** (derecha): los productos de la venta en curso, con subtotal, impuestos,
   descuentos y total.
+
+![La pantalla de venta: header, búsqueda de productos y carrito](imagenes/manual-pv-02-venta.png)
 
 ## 3. Agregar productos al carrito
 
@@ -43,6 +47,8 @@ lote sale la mercadería.
 El carrito **no vende más de lo que hay en stock**: si el producto no tiene existencias
 avisa "Producto sin stock", y el `+` de una línea no pasa del stock disponible.
 
+![Diálogo para elegir de qué lote sale la venta](imagenes/manual-pv-03-selector-lote.png)
+
 ## 4. El carrito
 
 - **`+` / `−`**: cambian la cantidad de la línea. Bajar la cantidad a 0 saca la línea.
@@ -50,6 +56,8 @@ avisa "Producto sin stock", y el `+` de una línea no pasa del stock disponible.
 - Las **promociones vigentes** se aplican solas a cada línea; lo que descuentan se ve en la
   fila **Descuentos** de los totales.
 - Los totales muestran **Subtotal**, **Impuestos**, **Descuentos** y **Total**.
+
+![El carrito con sus líneas, controles y totales](imagenes/manual-pv-02-venta.png)
 
 ## 5. Cobrar
 
@@ -65,6 +73,8 @@ Tocá **Cobrar** (o la tecla F2) y se abre el diálogo de cobro:
 4. Tocá **Confirmar venta**.
 
 La venta queda registrada, el carrito se vacía y queda listo para el siguiente cliente.
+
+![Diálogo de cobro: cliente, método de pago, monto recibido y cambio](imagenes/manual-pv-04-cobro.png)
 
 ### El ticket
 
@@ -89,6 +99,8 @@ retiros, depósitos). Para registrarlos:
 
 Los movimientos quedan en el resumen del corte.
 
+![Diálogo de movimiento de caja: salida, monto y motivo](imagenes/manual-pv-05-movimiento-caja.png)
+
 ## 7. Anular una venta (F8)
 
 Si una venta se hizo mal, se puede anular **mientras el turno siga abierto**:
@@ -98,6 +110,8 @@ Si una venta se hizo mal, se puede anular **mientras el turno siga abierto**:
 3. Elegí la venta y confirmá.
 
 La venta anulada **no cuenta en el corte de caja ni en los reportes de ventas**.
+
+![Diálogo de anulación con las ventas del turno](imagenes/manual-pv-06-anulacion.png)
 
 ## 8. Cerrar el turno: el corte de caja
 
@@ -117,6 +131,8 @@ Cuando terminás el día (o el turno):
 
 Contá el efectivo del cajón y comparalo con el efectivo esperado: cualquier diferencia se
 ve ahí mismo.
+
+![Resumen del corte de caja con totales, movimientos y efectivo esperado](imagenes/manual-pv-07-corte.png)
 
 ## 9. Atajos de teclado
 

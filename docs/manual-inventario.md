@@ -5,6 +5,8 @@
 La sección Inventario es el centro de gestión de mercadería. Tiene cuatro tabs:
 **Productos**, **Compras**, **Categorías** e **Impuestos**.
 
+![Inventario con sus cuatro tabs: Productos, Compras, Categorías e Impuestos](imagenes/manual-inventario-01-inventario.png)
+
 ---
 
 ## Tab Productos
@@ -35,6 +37,8 @@ Catálogo de tasas impositivas (IVA, IEPS, etc.) que se aplican a los productos.
 1. Andá a **Inventario → tab Impuestos**.
 2. Tocá el botón de **nuevo impuesto**.
 3. Cargá el **nombre** y la **tasa %** (solo números, obligatorios) y guardá.
+
+![Diálogo Nuevo Impuesto con nombre y tasa sobre la lista de impuestos](imagenes/manual-inventario-02-impuesto.png)
 
 ### Aplicar una tasa a un producto
 
