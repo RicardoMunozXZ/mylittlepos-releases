@@ -50,6 +50,8 @@ Un listado de secciones; al tocar una, su formulario ocupa la pantalla y
 
 **Encabezado** y **pie** del ticket. Tocá **Guardar Ticket**.
 
+![Formulario de Configuración de Ticket con encabezado y pie](imagenes/manual-config-06-ticket.png)
+
 ### Configuración de Impresora
 
 Para la impresora térmica ESC/POS:
@@ -67,6 +69,8 @@ Para la impresora térmica ESC/POS:
 Documentos/MyLittlePOS/reportes). Con **Elegir carpeta…** se elige con el explorador,
 y la opción de subcarpeta por período agrupa los archivos por rango de fechas.
 Tocá **Guardar Ruta de Exportación**.
+
+![Configuración de la ruta de exportación con carpeta base y subcarpeta por período](imagenes/manual-config-07-exportacion.png)
 
 ### Atajos de teclado
 
@@ -87,6 +91,8 @@ Genera una **copia completa** de la base de datos en un archivo `.realm`.
 1. Elegí la **Carpeta de destino** con **Elegir carpeta…** (vacío =
    Documentos/MyLittlePOS/backups).
 2. Tocá **Crear copia de seguridad**.
+
+![Configuración de copia de seguridad con carpeta destino y botones de guardar y crear](imagenes/manual-config-08-backup.png)
 
 > Para volver a una copia, el archivo `.realm` se reemplaza a mano con la aplicación
 > cerrada; una copia no se "instala" desde la app.

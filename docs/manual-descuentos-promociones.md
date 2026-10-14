@@ -50,11 +50,23 @@ a vencer.
 
 ![Formulario de promoción con tipo, objetivo y período de vigencia](imagenes/manual-descprom-02-formulario.png)
 
+La cara del formulario cambia según el tipo elegido. Con **C+L** (compra y llévate)
+aparecen los campos "Compra (unidades)" y "Llévate gratis" más el botón de regalo:
+
+![Formulario de promoción tipo C+L con compra, llévate y selección de regalo](imagenes/manual-descprom-03-compra-lleva.png)
+
+Con **Caducidad** el formulario muestra el editor de escalones (días antes de vencer
+→ % de descuento):
+
+![Formulario de promoción tipo Caducidad con el editor de escalones de descuento](imagenes/manual-descprom-04-caducidad.png)
+
 ## En el Punto de Venta
 
 Al abrir el PV se cargan las promociones vigentes. Mientras una promoción esté
 **activa** (y en su período, si tiene), el descuento aparece **solo**, línea por
 línea, en el carrito — no hay que tocar nada al cobrar.
+
+![Carrito del PV con un descuento de promoción aplicado y el total rebajado](imagenes/manual-descprom-05-en-pv.png)
 
 ---
 

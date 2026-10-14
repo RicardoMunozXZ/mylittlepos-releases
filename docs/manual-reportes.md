@@ -33,10 +33,14 @@ Una fila por venta: fecha, método, cantidad de artículos y total. Tocá
 - Detalle: una fila por compra con fecha, proveedor y folio. **Ver detalle** abre las
   líneas de la compra.
 
+![Reporte de Compras en vista Resumen con KPIs, estado y proveedor](imagenes/manual-reportes-02-compras.png)
+
 ### Productos
 
 Movimiento de cada producto en el período: **Vendido** (unidades e importe) y
 **Comprado** (unidades y costo), por producto.
+
+![Reporte de Productos con el movimiento vendido y comprado por producto](imagenes/manual-reportes-03-productos.png)
 
 ### Stock Bajo
 
@@ -44,10 +48,14 @@ Aviso de reposición: cuenta de productos **sin stock**, **críticos** (existenc
 y **total bajos**, con el detalle de cada uno (existencias / stock mínimo) y su
 categoría. Si todo está en orden se muestra **Stock suficiente**.
 
+![Reporte de Stock Bajo con el conteo y el detalle de productos a reponer](imagenes/manual-reportes-04-stock.png)
+
 ### Clientes
 
 Quiénes compraron en el período: compras y monto por cliente. **Ver productos** abre
 qué compró cada uno.
+
+![Reporte de Clientes con las compras y el monto por cliente](imagenes/manual-reportes-05-clientes.png)
 
 ## Exportar
 
