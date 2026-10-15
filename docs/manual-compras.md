@@ -51,7 +51,10 @@ factura en el mostrador:
    de venta se queda con un margen raro, aparece un aviso con la sugerencia —
    tú decides si la aceptas.
 4. Si el producto maneja **lotes**, decide si asignas las unidades a un lote existente
-   o repartes la cantidad entre varios lotes.
+   o repartes la cantidad entre varios lotes. Al asignar un lote que ya existe, las
+   unidades se suman a su stock y **su fecha de vencimiento no se cambia**:
+
+   ![Mostrador de Compras con el bloque de reparto entre lotes](imagenes/manual-compras-03-reparto-lotes.png)
 5. Toca **Agregar a la compra**: la línea pasa al listado y el mostrador queda limpio
    y con el cursor listo para el siguiente código.
 6. **Soltar la línea** descarta lo escaneado por error sin agregarlo.

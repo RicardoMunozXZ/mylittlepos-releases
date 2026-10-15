@@ -79,10 +79,14 @@ nueva: acepta **F1–F12** o combinaciones con **Ctrl/Alt** (una tecla sola choc
 lo que se está tipeando). **Esc** queda libre para cancelar. Si la tecla ya está
 usada por otra acción, se avisa.
 
+![Configuración de atajos de teclado con la lista de acciones y sus teclas](imagenes/manual-config-09-atajos.png)
+
 ### Eliminar datos del negocio (solo administradores)
 
 Borra **todo**: productos, ventas, compras, empleados, permisos y el resto de la
 información del negocio. Pide **confirmar la contraseña**; no se puede deshacer.
+
+![Diálogo de restablecer de fábrica pidiendo confirmar la contraseña](imagenes/manual-config-10-reset.png)
 
 ### Copia de seguridad (solo administradores)
 

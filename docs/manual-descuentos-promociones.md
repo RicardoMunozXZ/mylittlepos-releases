@@ -55,6 +55,16 @@ aparecen los campos "Compra (unidades)" y "Llévate gratis" más el botón de re
 
 ![Formulario de promoción tipo C+L con compra, llévate y selección de regalo](imagenes/manual-descprom-03-compra-lleva.png)
 
+Con **$** (precio fijo) el formulario solo pide el precio por unidad al que se vende
+el producto, sin porcentajes:
+
+![Formulario de promoción tipo precio fijo con el campo de precio por unidad](imagenes/manual-descprom-06-precio-fijo.png)
+
+Con **2x1** (o **3x2**) no hay campo de importe: solo eliges el producto y la promoción
+se aplica sola en el carrito al llevar las unidades mínimas:
+
+![Formulario de promoción tipo 2x1 sin campo de importe](imagenes/manual-descprom-07-dos-por-uno.png)
+
 Con **Caducidad** el formulario muestra el editor de escalones (días antes de vencer
 → % de descuento):
 
