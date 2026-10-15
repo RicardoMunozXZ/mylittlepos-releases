@@ -23,8 +23,9 @@ Los datos que identifican al negocio (aparecen, por ejemplo, en los tickets):
 
 Quienes pueden usar el sistema, cada uno con su alias, código y rol.
 
-- **Nuevo**: carga **Alias *** y **Código *** (lo que se teclea en el login),
-  nombre completo, **rol** y **contraseña**, y guarda.
+- **Nuevo**: carga **Alias *** y **Contraseña *** (lo que se teclea en el
+  [inicio de sesión](manual-login.md)), nombre completo, **Código *** (el identificador
+  interno del empleado) y **rol**, y guarda.
 - El ícono de **llave** de cada fila abre los **permisos** de ese empleado.
 - **Lápiz** para editar (al editar, la contraseña vacía no se cambia) y
   **papelera** para eliminar, con confirmación.
@@ -89,6 +90,9 @@ información del negocio. Pide **confirmar la contraseña**; no se puede deshace
 
 ![Diálogo de restablecer de fábrica pidiendo confirmar la contraseña](imagenes/manual-config-10-reset.png)
 
+> Al terminar, la sesión se cierra y la aplicación vuelve al **asistente de configuración
+> inicial** (ver [Manual de configuración inicial](manual-configuracion-inicial.md)).
+
 ### Copia de seguridad (solo administradores)
 
 Genera una **copia completa** de la base de datos en un archivo `.realm`.
@@ -99,8 +103,11 @@ Genera una **copia completa** de la base de datos en un archivo `.realm`.
 
 ![Configuración de copia de seguridad con carpeta destino y botones de guardar y crear](imagenes/manual-config-08-backup.png)
 
-> Para volver a una copia, el archivo `.realm` se reemplaza a mano con la aplicación
-> cerrada; una copia no se "instala" desde la app.
+> Para restaurar una copia, la vía desde la aplicación es el **asistente de configuración
+> inicial**: haz **Eliminar datos del negocio** (o instala la aplicación en un equipo nuevo)
+> y, en el paso Negocio, usa **Importar copia de seguridad**
+> (ver [Manual de configuración inicial](manual-configuracion-inicial.md)). También puedes
+> reemplazar el archivo `.realm` a mano con la aplicación cerrada.
 
 ## Tab Acerca de
 

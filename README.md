@@ -26,6 +26,8 @@ la app la descarga, verifica el hash y lanza el instalador.
 
 Manuales de usuario en [`docs/`](docs/):
 
+- [Configuración inicial](docs/manual-configuracion-inicial.md) — el asistente de la primera instalación.
+- [Inicio de sesión](docs/manual-login.md) — entrar, credenciales y cerrar sesión.
 - [Punto de Venta](docs/manual-punto-de-venta.md) — turnos, carrito, cobro, corte de caja y atajos.
 - [Caja](docs/manual-caja.md) — turnos, movimientos de caja y corte.
 - [Productos](docs/manual-productos.md) — catálogo, precios, stock, lotes y bajas.
