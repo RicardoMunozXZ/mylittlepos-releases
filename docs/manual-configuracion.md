@@ -77,7 +77,7 @@ Haz clic en **Guardar Ruta de Exportación**.
 
 Teclas que disparan acciones del PV. Haz clic en **Cambiar** en una fila y presiona la tecla
 nueva: acepta **F1–F12** o combinaciones con **Ctrl/Alt** (una tecla sola chocaría con
-lo que se está tipeando). **Esc** queda libre para cancelar. Si la tecla ya está
+lo que se está escribiendo). **Esc** queda libre para cancelar. Si la tecla ya está
 usada por otra acción, se avisa. Al terminar, haz clic en **Guardar Atajos**;
 **Restaurar por defecto** devuelve las teclas originales.
 
