@@ -12,7 +12,7 @@ productos al carrito, se cobra y se cierra la caja.
 Al entrar al Punto de Venta, si no hay un turno abierto aparece la pantalla de apertura:
 
 1. Carga el **Saldo inicial**: el dinero con el que arranca el cajón (cambio del día).
-2. Toca **Abrir turno**.
+2. Haz clic en **Abrir turno**.
 
 Todo lo que se venda o se mueva de caja durante el día queda ligado a ese turno.
 
@@ -22,8 +22,8 @@ Todo lo que se venda o se mueva de caja durante el día queda ligado a ese turno
 
 Con el turno abierto, la pantalla tiene tres zonas:
 
-- **Header**: muestra el turno actual y los botones de acción (anular, movimiento de caja,
-  corte de caja).
+- **Barra superior (header)**: muestra el turno actual y los botones de acción
+  (**Anular**, **Caja** para los movimientos de caja y **Corte**).
 - **Búsqueda de productos** (izquierda): un campo donde escribes o escaneas, y la lista de
   productos que coincide.
 - **Carrito** (derecha): los productos de la venta en curso, con subtotal, impuestos,
@@ -35,11 +35,11 @@ Con el turno abierto, la pantalla tiene tres zonas:
 
 Hay dos formas:
 
-- **Búsqueda incremental**: escribe parte del código o de la descripción; la lista se filtra
-  mientras escribes. Haz clic en el producto para agregarlo.
+- **Búsqueda mientras escribes**: escribe parte del código o de la descripción; la lista se
+  filtra mientras escribes. Haz clic en el producto para agregarlo.
 - **Escáner de código de barras**: escanea el código. El producto entra **directo al
   carrito** sin tocar el mouse. Después de cada escaneo el cursor vuelve al campo de
-  búsqueda solo.
+  búsqueda automáticamente.
 
 Si el producto se maneja por **lotes**, al agregarlo se abre un diálogo para elegir de qué
 lote sale la mercadería.
@@ -55,22 +55,23 @@ avisa "Producto sin stock", y el `+` de una línea no pasa del stock disponible.
 - **`×`**: elimina la línea del carrito.
 - Las **promociones vigentes** se aplican solas a cada línea; lo que descuentan se ve en la
   fila **Descuentos** de los totales.
-- Los totales muestran **Subtotal**, **Impuestos**, **Descuentos** y **Total**.
+- Los totales muestran **Subtotal**, **Impuestos**, **Descuentos** (cuando hay algún
+  descuento) y **Total**.
 
 ![El carrito con sus líneas, controles y totales](imagenes/manual-pv-02-venta.png)
 
 ## 5. Cobrar
 
-Toca **Cobrar** (o la tecla F2) y se abre el diálogo de cobro:
+Haz clic en **Cobrar** (o la tecla F2) y se abre el diálogo de cobro:
 
 1. **Cliente**: por defecto viene "Mostrador no registrado". Si el cliente está registrado
-   en **Terceros → Clientes**, elegilo del desplegable para que quede en la venta y en el
+   en **Terceros → Clientes**, elígelo del desplegable para que quede en la venta y en el
    ticket.
 2. **Método de pago**: efectivo, tarjeta o transferencia.
 3. Si elegiste **efectivo**, carga el **Monto recibido**: el cambio se calcula solo y se
    muestra en pantalla. El monto tiene que alcanzar el total; si no, el diálogo marca el
    campo con el error.
-4. Toca **Confirmar venta**.
+4. Haz clic en **Confirmar venta**.
 
 La venta queda registrada, el carrito se vacía y queda listo para el siguiente cliente.
 
@@ -79,8 +80,8 @@ La venta queda registrada, el carrito se vacía y queda listo para el siguiente 
 ### El ticket
 
 Si en **Configuración → Sistema → Impresora** está activado **"Imprimir al vender"**, al
-confirmar la venta se imprime el ticket con el encabezado y el pie configurados, el folio
-de la venta, los artículos, los totales y el método de pago. Si el cliente no es mostrador,
+confirmar la venta se imprime el ticket con el encabezado y el pie configurados, el número
+del ticket, los artículos, los totales y el método de pago. Si el cliente no es mostrador,
 también imprime su nombre.
 
 Si la impresora falla, **la venta ya quedó registrada**: aparece un aviso indicando que no
@@ -92,7 +93,7 @@ Configuración.
 Durante el turno pueden entrar o salir billetes del cajón que no son ventas (giros,
 retiros, depósitos). Para registrarlos:
 
-1. Toca el botón de **movimiento de caja** (o F4).
+1. Haz clic en el botón **Caja** de la barra superior (movimiento de caja) o aprieta **F4**.
 2. Elige si es **entrada** o **salida**.
 3. Carga el **monto** y un **motivo** (obligatorio, máximo 60 caracteres).
 4. **Registrar**.
@@ -105,8 +106,9 @@ Los movimientos quedan en el resumen del corte.
 
 Si una venta se hizo mal, se puede anular **mientras el turno siga abierto**:
 
-1. Toca el botón de **anulación** (o F8). Requiere permiso de anulación.
-2. Se lista las ventas del turno que todavía se pueden anular.
+1. Haz clic en el botón **Anular** de la barra superior (o **F8**). Requiere permiso de
+   anulación.
+2. Se listan las ventas del turno que todavía se pueden anular.
 3. Elige la venta y confirma.
 
 La venta anulada **no cuenta en el corte de caja ni en los reportes de ventas**.
@@ -117,7 +119,7 @@ La venta anulada **no cuenta en el corte de caja ni en los reportes de ventas**.
 
 Cuando terminas el día (o el turno):
 
-1. Toca **Corte de caja** (o F9) y confirma.
+1. Haz clic en el botón **Corte** de la barra superior (corte de caja, o **F9**) y confirma.
 2. Se muestra el resumen del turno:
    - total de ventas, cantidad de ventas y de artículos;
    - ventas en **efectivo**, **tarjeta** y **transferencia** por separado;
@@ -129,7 +131,7 @@ Cuando terminas el día (o el turno):
    - **Abrir un turno nuevo** (sigue la atención), o
    - **Cerrar sesión** y volver al login.
 
-Cuenta el efectivo del cajón y compÃ¡ralo con el efectivo esperado: cualquier diferencia se
+Cuenta el efectivo del cajón y compáralo con el efectivo esperado: cualquier diferencia se
 ve ahí mismo.
 
 ![Resumen del corte de caja con totales, movimientos y efectivo esperado](imagenes/manual-pv-07-corte.png)
@@ -139,7 +141,7 @@ ve ahí mismo.
 | Tecla | Acción |
 |-------|--------|
 | **F2** | Cobrar |
-| **F3** | Foco en el campo de búsqueda |
+| **F3** | Selecciona el campo de búsqueda |
 | **F4** | Movimiento de caja |
 | **F8** | Devolución / anulación de venta |
 | **F9** | Corte de caja |

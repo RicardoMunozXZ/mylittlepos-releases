@@ -13,24 +13,24 @@ Cada catálogo es un tab con su propia lista y su propio formulario.
 
 ### Crear un cliente
 
-1. Ve a **Terceros → tab Clientes** y toca **Nuevo**.
+1. Ve a **Terceros → tab Clientes** y haz clic en **Nuevo**.
 2. Carga el **nombre** (es lo único obligatorio) y, si quieres, **teléfono**, **correo**,
    **RFC** y **dirección** (son todos opcionales; si los cargas, se comprueban los
    formatos: teléfono solo dígitos, correo con @, RFC con su formato).
-3. Toca **Crear**. El sistema le asigna un código único tipo `CLI-0001`.
+3. Haz clic en **Crear**. El sistema le asigna un código único tipo `CLI-0001`.
 
-No se puede crear dos clientes con el mismo nombre (se comparan ignorando mayúsculas,
+No se pueden crear dos clientes con el mismo nombre (se comparan ignorando mayúsculas,
 espacios y acentos).
 
 ### Editar o dar de baja
 
-- Toca el ícono de **lápiz** de una fila para editarla.
-- Toca el ícono de **papelera** para dar de baja. La baja es **lógica**: el cliente no
+- Haz clic en el ícono de **lápiz** de una fila para editarla.
+- Haz clic en el ícono de **papelera** para dar de baja. La baja es **lógica**: el cliente no
   se borra, queda marcado **Inactivo** — las ventas pasadas lo siguen citando.
 
 ### El cliente Mostrador
 
-La lista incluye siempre **Mostrador (sin cliente)**: es el cliente del sistema para
+La lista incluye siempre **Mostrador no registrado**: es el cliente del sistema para
 las ventas sin cliente identificado. **No se edita ni se da de baja.**
 
 > En el cobro del PV se puede elegir a qué cliente le vendes; si no se elige nadie,
@@ -49,7 +49,7 @@ Funciona igual que Clientes, con su propio catálogo:
 3. **Crear**: cada proveedor recibe un código tipo `PRV-0001`.
 
 Las compras se cargan eligiendo proveedor (ver [Manual de Compras](manual-compras.md));
-si el proveedor de la factura todavía no existe, también se puede crear **desde la
+si el proveedor de la compra todavía no existe, también se puede crear **desde la
 misma compra**, con el ícono **+** de al lado del desplegable.
 
 ### El proveedor general

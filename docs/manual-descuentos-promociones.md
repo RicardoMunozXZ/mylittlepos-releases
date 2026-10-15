@@ -16,11 +16,11 @@ Cada promoción aparece como una tarjeta con su tipo y su estado:
 - El interruptor **Activa** prende o apaga la promoción al instante, incluso si está
   vigente.
 
-![Lista de promociones con badges de tipo, vigencia y switch de activa](imagenes/manual-descprom-01-lista.png)
+![Lista de promociones con badge de tipo y detalle (aplica a · vigencia)](imagenes/manual-descprom-01-lista.png)
 
 ## Crear una promoción
 
-1. Ve a **Descuentos** y toca **Nueva**.
+1. Ve a **Descuentos** y haz clic en **Nueva**.
 2. Carga la **descripción** (el nombre que vas a reconocer en la lista).
 3. Elige el **Tipo**:
    - **%**: descuento porcentual sobre el importe (carga el porcentaje).
@@ -30,12 +30,12 @@ Cada promoción aparece como una tarjeta con su tipo y su estado:
      el regalo es el mismo producto; con **Seleccionar regalo…** puedes elegir otros
      productos de regalo.
    - **Caducidad**: descuento progresivo según lo que falte para vencer (ver abajo).
-4. Elige **Aplica a**: **Producto**, **Categoría** o **Lote**, y toca **Seleccionar…**
+4. Elige **Aplica a**: **Producto**, **Categoría** o **Lote**, y haz clic en **Seleccionar…**
    para marcar a qué se aplica.
 5. **Período de vigencia** (opcional): marca el período y elige **Desde** y **Hasta**
    con el calendario. Sin período, la promoción se prende y apaga solo con el
    interruptor **Activa**.
-6. Toca **Crear**.
+6. Haz clic en **Crear**.
 
 ### Descuento por caducidad
 

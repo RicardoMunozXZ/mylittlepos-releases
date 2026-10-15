@@ -3,18 +3,18 @@
 > Corresponde a la versión 1.0.0. La caja no es una pantalla propia: se maneja desde el
 > **Punto de Venta** (menú lateral → **Punto de Venta**).
 
-La caja es el **turno**: el periodo entre el momento en que abres la caja con una plata
+La caja es el **turno**: el periodo entre el momento en que abres la caja con el efectivo
 inicial y el corte final del día. Todo lo que mueve efectivo —ventas en efectivo,
 entradas y salidas manuales, compras que afectan caja— se acumula sobre ese turno.
 
 ## Abrir la caja
 
 1. Ve al **Punto de Venta**. Si no hay turno abierto, se muestra la pantalla de apertura.
-2. Carga el **saldo inicial**: la plata que dejas en el cajón al empezar (no puede ser negativo).
-3. Toca **Abrir turno**.
+2. Carga el **saldo inicial**: el efectivo que dejas en el cajón al empezar (no puede ser negativo).
+3. Haz clic en **Abrir Turno**.
 
 Con el turno abierto, la cabecera del PV muestra **Caja: $…** con ese saldo inicial, y
-aparecen los botones de **Movimiento** y **Corte**.
+aparecen los botones **Caja** y **Corte**.
 
 > Solo puede haber **un turno abierto a la vez**.
 
@@ -22,13 +22,13 @@ aparecen los botones de **Movimiento** y **Corte**.
 
 ## Movimientos de caja
 
-Los movimientos registran plata que entra o sale del cajón **sin ser una venta**:
+Los movimientos registran efectivo que entra o sale del cajón **sin ser una venta**:
 un pago a un proveedor suelto, un retiro, un depósito, un ajuste.
 
-1. Toca **Movimiento** en el PV (con turno abierto).
+1. Haz clic en **Caja** en el PV (con turno abierto): se abre **Movimiento de caja**.
 2. Elige el tipo: **Salida (gasto)** o **Entrada**.
 3. Carga el **monto** y el **motivo** (ambos obligatorios).
-4. Toca **Registrar**.
+4. Haz clic en **Registrar**.
 
 El movimiento queda pegado al turno actual y aparece en el corte.
 
@@ -51,7 +51,7 @@ El movimiento queda pegado al turno actual y aparece en el corte.
 
 El corte cierra el turno y muestra el resumen del día.
 
-1. Toca **Corte** en el PV y confirma (así no se cierra por un clic accidental).
+1. Haz clic en **Corte** en el PV y confirma (así no se cierra por un clic accidental).
 2. Se muestra el informe:
    - **Ventas**: cantidad, artículos vendidos y total, desglosado en efectivo, tarjeta
      y transferencia.

@@ -9,16 +9,19 @@ en el Punto de Venta.
 
 ## 1. Ver el catálogo
 
-La tab **Productos** muestra la tabla de productos con:
+La tab **Productos** muestra los productos en **tarjetas** (código, descripción, precio,
+stock y categoría). Cada tarjeta tiene dos iconos: **editar** ✏️ y **eliminar** 🗑.
 
-- **Búsqueda**: escribe parte del código o de la descripción para filtrar.
-- **Filtro por categoría**: panel lateral que arranca en **"Todas"**.
+Para encontrarlos:
+
+- **Búsqueda** (arriba): escribe parte del código o de la descripción para filtrar.
+- **Filtro por categoría** (izquierda): el panel **Categorías**, que empieza en **"Todas"**.
 
 ![Catálogo de productos con el filtro de categorías en "Todas"](imagenes/manual-productos-01-tabla.png)
 
 ## 2. Crear un producto
 
-Toca el botón de **nuevo producto** y completa el formulario:
+Haz clic en **Nuevo Producto** (arriba a la derecha) y completa el formulario:
 
 ### Campos básicos
 
@@ -29,17 +32,18 @@ Toca el botón de **nuevo producto** y completa el formulario:
 | **Costo** | Lo que te cuesta al comprar (solo números). |
 | **Precio** | Precio de venta (solo números). |
 | **Existencias** | Stock actual (solo números). |
-| **Stock mínimo** | Piso de alerta de reposición (solo números). |
 | **Tipo de unidad** | Pieza, kilo, etc. Por defecto: Pieza. |
-| **Sub-unidad** | Segunda unidad (ej.: caja de 10). Al cambiar el tipo de unidad se limpia, porque pertenece al catálogo anterior. |
+| **Sub-unidad** | Segunda unidad (ej.: caja de 10). Al cambiar el tipo de unidad, la sub-unidad se limpia porque la anterior ya no aplica. |
 | **Categoría** | Se elige del catálogo de categorías. |
 | **Imagen** | Selecciona una foto del producto o quita la que tenga. |
+| **Stock mínimo** | Piso de alerta de reposición. El campo aparece al marcar la casilla **Stock mínimo** (ver abajo). |
 
 ![Formulario de producto con los campos básicos](imagenes/manual-productos-02-formulario.png)
 
-### Secciones opcionales (checks)
+### Secciones opcionales (casillas)
 
-El formulario tiene cuatro interruptores que habilitan secciones adicionales:
+En la parte de abajo del formulario, la sección **Configuración** tiene cuatro casillas
+que habilitan secciones adicionales:
 
 - **Impuestos**: marca las tasas del catálogo (IVA, IEPS, etc.) que aplican al producto.
   Desde ahí mismo también puedes **crear una tasa nueva** (nombre + %) y queda aplicada al
@@ -52,17 +56,18 @@ El formulario tiene cuatro interruptores que habilitan secciones adicionales:
   - Con lotes, en el PV al agregar el producto te pide elegir de qué lote sale.
 - **Medicamento**: habilita los **compuestos activos** del producto (nombre, cantidad y
   unidad, ej.: 500 mg).
-- **Stock mínimo**: habilita el control de piso de reposición en el producto.
+- **Stock mínimo**: habilita el campo de **Stock mínimo** (piso de alerta de reposición).
 
 ![Formulario con el check Impuestos marcado y las tasas IVA/IEPS](imagenes/manual-productos-03-formulario-impuestos.png)
 
-Toca **Guardar**: el producto se guarda y aparece un aviso de éxito **sin cerrar el
-formulario**, por si quieres seguir ajustando datos.
+Haz clic en **Guardar**: el producto se guarda y aparece un aviso de éxito **sin cerrar el
+formulario**. Al **crear**, los campos se limpian para cargar el siguiente; al **editar**,
+los datos siguen en pantalla por si quieres seguir ajustándolos.
 
 ## 3. Editar un producto
 
-Haz clic en el producto de la tabla: se abre el formulario con los datos cargados.
-Ajusta lo que haga falta y guarda.
+Haz clic en el icono de **editar** ✏️ de la tarjeta: se abre el formulario con los datos
+cargados. Ajusta lo que haga falta y guarda.
 
 > **Historial de precios**: cada vez que cambia el costo o el precio, el sistema registra
 > el valor nuevo con la fecha. Así se puede responder "por qué este producto cuesta lo que
@@ -71,7 +76,8 @@ Ajusta lo que haga falta y guarda.
 
 ## 4. Dar de baja un producto
 
-Desde el producto en la tabla, pide **Eliminar** y confirma. Es una **baja lógica**:
+Haz clic en el icono de **eliminar** 🗑 de la tarjeta y confirma en el diálogo. Es una
+**baja lógica**:
 
 - el producto **sale del catálogo**: ya no aparece en la lista ni se puede vender en el PV;
 - **conserva todo**: historial de precios, movimientos y existencias siguen contando en el

@@ -36,15 +36,15 @@ Catálogo de tasas impositivas (IVA, IEPS, etc.) que se aplican a los productos.
 ### Crear una tasa
 
 1. Ve a **Inventario → tab Impuestos**.
-2. Toca el botón de **nuevo impuesto**.
-3. Carga el **nombre** y la **tasa %** (solo números, obligatorios) y guarda.
+2. Haz clic en **Nuevo** (arriba a la derecha).
+3. Carga el **nombre** y la **tasa %** (solo números, obligatorios) y haz clic en **Crear**.
 
 ![Diálogo Nuevo Impuesto con nombre y tasa sobre la lista de impuestos](imagenes/manual-inventario-02-impuesto.png)
 
 ### Aplicar una tasa a un producto
 
 Las tasas se asignan **desde el formulario del producto**
-(Inventario → Productos → producto → check **Impuestos**). También se puede crear una
+(Inventario → Productos → producto → casilla **Impuestos**). También se puede crear una
 tasa nueva desde ahí mismo, y queda aplicada automáticamente.
 
 ---
