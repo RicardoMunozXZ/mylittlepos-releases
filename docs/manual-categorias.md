@@ -13,6 +13,9 @@ filtrar el catálogo y organizar los reportes.
 2. Haz clic en **Nueva** (arriba a la derecha).
 3. Carga el **nombre** (obligatorio) y haz clic en **Crear**.
 
+El nombre no se puede repetir: se comparan ignorando mayúsculas, espacios y acentos, así
+que "Bebidas" y "bebidas" son la misma. Si ya existe, el campo te avisa y no se guarda nada.
+
 ![Diálogo Nueva Categoría con el nombre cargado](imagenes/manual-categorias-02-nueva.png)
 
 ## 2. Editar una categoría
