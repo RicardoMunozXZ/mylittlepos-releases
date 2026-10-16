@@ -1,6 +1,6 @@
 # Manual — Inicio de sesión
 
-> Corresponde a la versión 1.0.0. MyLittlePOS pide iniciar sesión **cada vez que abres la
+> Corresponde a la versión 1.1.0. MyLittlePOS pide iniciar sesión **cada vez que abres la
 > aplicación**: la sesión no se guarda entre ejecuciones.
 
 ## Cuándo aparece
@@ -22,8 +22,8 @@
 1. Escribe tu usuario y tu contraseña.
 2. Haz clic en **Iniciar Sesión**.
 
-> El **Código de Ingreso** (el PIN numérico del asistente) **no se usa para entrar**: es el
-> identificador interno del empleado. Lo ves en **Configuración → Empleados**, al lado del rol.
+> El **código del empleado** (`EMP-0001`, `EMP-0002`, ...) **no se usa para entrar**: lo
+> genera la aplicación y lo ves en **Configuración → Empleados**, al lado del rol.
 
 ## Si no entra
 

@@ -1,6 +1,6 @@
 # Manual — Categorías
 
-> Corresponde a la versión 1.0.0. Desde el menú lateral: **Inventario → tab Categorías**.
+> Corresponde a la versión 1.1.0. Desde el menú lateral: **Inventario → tab Categorías**.
 
 Las categorías agrupan productos (bebidas, abarrotes, limpieza, etc.) y sirven para
 filtrar el catálogo y organizar los reportes.

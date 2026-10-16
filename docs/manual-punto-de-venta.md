@@ -1,6 +1,6 @@
 # Manual — Punto de Venta
 
-> Corresponde a la versión 1.0.0. Desde el menú lateral, la sección **Punto de Venta**.
+> Corresponde a la versión 1.1.0. Desde el menú lateral, la sección **Punto de Venta**.
 
 El Punto de Venta (PV) es donde se hacen las ventas del día: se abren turnos, se agregan
 productos al carrito, se cobra y se cierra la caja.
@@ -71,18 +71,22 @@ Haz clic en **Cobrar** (o la tecla F2) y se abre el diálogo de cobro:
 3. Si elegiste **efectivo**, carga el **Monto recibido**: el cambio se calcula solo y se
    muestra en pantalla. El monto tiene que alcanzar el total; si no, el diálogo marca el
    campo con el error.
-4. Haz clic en **Confirmar venta**.
+4. Revisa el check **Imprimir ticket**: viene marcado o desmarcado según el valor
+   predeterminado de [Configuración → Impresora](manual-configuracion.md) y decide, **venta
+   por venta**, si quieres el ticket.
+5. Haz clic en **Confirmar venta**.
 
 La venta queda registrada, el carrito se vacía y queda listo para el siguiente cliente.
 
-![Diálogo de cobro: cliente, método de pago, monto recibido y cambio](imagenes/manual-pv-04-cobro.png)
+![Diálogo de cobro: cliente, método de pago, monto recibido, imprimir ticket y cambio](imagenes/manual-pv-04-cobro.png)
 
 ### El ticket
 
-Si en **Configuración → Sistema → Impresora** está activado **"Imprimir al vender"**, al
-confirmar la venta se imprime el ticket con el encabezado y el pie configurados, el número
-del ticket, los artículos, los totales y el método de pago. Si el cliente no es mostrador,
-también imprime su nombre.
+Con el check **Imprimir ticket** marcado en el cobro (viene marcado cuando está activado
+**"Imprimir ticket por defecto al confirmar la venta"** en
+**Configuración → Sistema → Impresora**), al confirmar la venta se imprime el ticket con el
+encabezado y el pie configurados, el número del ticket, los artículos, los totales y el
+método de pago. Si el cliente no es mostrador, también imprime su nombre.
 
 Si la impresora falla, **la venta ya quedó registrada**: aparece un aviso indicando que no
 se pudo imprimir, pero no se pierde nada. Revisa la conexión de la impresora en
@@ -111,7 +115,9 @@ Si una venta se hizo mal, se puede anular **mientras el turno siga abierto**:
 2. Se listan las ventas del turno que todavía se pueden anular.
 3. Elige la venta y confirma.
 
-La venta anulada **no cuenta en el corte de caja ni en los reportes de ventas**.
+La venta anulada **no suma en los totales ni en el efectivo esperado del corte, ni en los
+totales de los reportes de ventas**; el corte y los reportes la muestran **aparte** (cantidad
+y total anulado) como testigo de lo que se anuló.
 
 ![Diálogo de anulación con las ventas del turno](imagenes/manual-pv-06-anulacion.png)
 
@@ -123,12 +129,15 @@ Cuando terminas el día (o el turno):
 2. Se muestra el resumen del turno:
    - total de ventas, cantidad de ventas y de artículos;
    - ventas en **efectivo**, **tarjeta** y **transferencia** por separado;
+   - **Ventas anuladas** y **Total anulado** (solo si hubo anuladas: no suman en ningún
+     total, quedan como testigo de la merma);
    - **entradas** y **salidas** de caja (los movimientos registrados);
    - el detalle de los movimientos y de los artículos vendidos;
-   - el **efectivo esperado**: lo que debería haber en el cajón
+   - el **Efectivo que debería haber**: lo que debería haber en el cajón
      (saldo inicial + ventas en efectivo + entradas − salidas).
 3. Al salir del resumen puedes:
-   - **Abrir un turno nuevo** (sigue la atención), o
+   - **Imprimir** el resumen (mismo contenido que se ve en pantalla), o
+   - **Iniciar nuevo turno** (sigue la atención), o
    - **Cerrar sesión** y volver al login.
 
 Cuenta el efectivo del cajón y compáralo con el efectivo esperado: cualquier diferencia se

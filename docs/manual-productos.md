@@ -1,6 +1,6 @@
 # Manual — Productos
 
-> Corresponde a la versión 1.0.0. Desde el menú lateral: **Inventario → tab Productos**.
+> Corresponde a la versión 1.1.0. Desde el menú lateral: **Inventario → tab Productos**.
 
 El catálogo de productos es la base de todo el sistema: lo que está aquí se puede vender
 en el Punto de Venta.
@@ -29,8 +29,8 @@ Haz clic en **Nuevo Producto** (arriba a la derecha) y completa el formulario:
 |-------|-------|
 | **Código** | Obligatorio. Es el que lee el escáner de código de barras. |
 | **Descripción** | Obligatoria. Nombre del producto tal como se muestra y se imprime. |
-| **Costo** | Lo que te cuesta al comprar (solo números). |
-| **Precio** | Precio de venta (solo números). |
+| **Costo** | Lo que te cuesta al comprar: números con decimales; se muestra con `$` y separador de miles (ej.: `$1,250.50`). |
+| **Precio** | Precio de venta: números con decimales, con el mismo formato `$`. |
 | **Existencias** | Stock actual (solo números). |
 | **Tipo de unidad** | Pieza, kilo, etc. Por defecto: Pieza. |
 | **Sub-unidad** | Segunda unidad (ej.: caja de 10). Al cambiar el tipo de unidad, la sub-unidad se limpia porque la anterior ya no aplica. |
@@ -85,7 +85,36 @@ Haz clic en el icono de **eliminar** 🗑 de la tarjeta y confirma en el diálog
 
 Si necesitas volver a venderlo más adelante, se crea de nuevo con el mismo código.
 
-## 5. Errores comunes
+## 5. Importar y exportar CSV
+
+Arriba del catálogo, junto a **Nuevo Producto**, están los botones **Importar CSV** y
+**Exportar CSV**. **Importar** requiere permiso de creación de productos; **Exportar**
+está siempre disponible.
+
+### Importar CSV
+
+1. Haz clic en **Importar CSV**: se abre **Importar productos (CSV)**.
+2. **Descargar plantilla** genera un archivo con la estructura y ejemplos (columnas:
+   `codigo`, `descripcion`, `categoria` (ruta `Cat1-Cat2`), `costo`, `precio`,
+   `existencias`, `stockMinimo`, `tipoUnidad`, `esMedicamento`, `compuestos`,
+   `impuestos`).
+3. **Seleccionar archivo** elige tu planilla. El resultado se informa **fila por fila**:
+   cuántos productos se importaron y qué filas se ignoraron, con su motivo (los códigos
+   que ya existen en el catálogo **no se importan**: aparecen como "Código duplicado, no
+   importado").
+4. Si un impuesto viene **sin porcentaje**, el diálogo lo pide y se aplica con
+   **Aplicar tasas**.
+
+Las categorías de la columna `categoria` se crean solas si no existen y el producto queda
+en el último nivel de la ruta (`A-B-C`).
+
+### Exportar CSV
+
+Haz clic en **Exportar CSV**: el explorador pide dónde guardar (nombre sugerido
+`productos.csv`) y el archivo sale **en el mismo formato de la plantilla**, con todo el
+catálogo. Sirve para respaldar o para editar en una planilla y volver a importar.
+
+## 6. Errores comunes
 
 | Aviso | Causa |
 |-------|-------|

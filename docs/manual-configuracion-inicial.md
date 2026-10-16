@@ -1,6 +1,6 @@
 # Manual — Configuración inicial
 
-> Corresponde a la versión 1.0.0. El asistente aparece **solo dos veces**: en la primera
+> Corresponde a la versión 1.1.0. El asistente aparece **solo dos veces**: en la primera
 > instalación y después de un **Eliminar datos del negocio** (reset de fábrica).
 
 Son cuatro pasos, indicados en la parte superior: **Negocio → Admin → Vendedor → Productos**.
@@ -14,7 +14,9 @@ Cada paso guarda lo suyo al pulsar **Continuar** y la configuración queda compl
 1. (Opcional) Haz clic en el cuadro **Subir Logo** para elegir la imagen de tu negocio
    (**PNG recomendado**). Sin logo el asistente igual continúa.
 2. Carga el **Nombre del Negocio** (obligatorio).
-3. Elige el **Tipo de Negocio** (obligatorio): **Abarrotes**, **Farmacias** o **Veterinarias**.
+3. Elige el **Tipo de Negocio** (obligatorio) en el desplegable: **Tienda General**,
+   **Tienda de Abarrotes**, **Tienda Departamental**, **Farmacia**, **Ferretería**,
+   **Tlapalería** o **Recaudería**. Si no encajas en ninguna, elige **Tienda General**.
 4. Haz clic en **Continuar**.
 
 ### Importar una copia de seguridad
@@ -34,27 +36,25 @@ Debajo de **Continuar** está **Importar copia de seguridad**: elige un archivo 
 
 1. **Nombre de Usuario**: nombre completo (mínimo 2 caracteres).
 2. **Alias**: el que usarás para entrar al sistema.
-3. **Código de Ingreso**: solo números, mínimo 4; **Confirmar Código** debe repetirlo
-   exactamente.
-4. **Contraseña**: mínimo 4 caracteres; admite letras y símbolos. **Confirmar Contraseña**
+3. **Contraseña**: mínimo 4 caracteres; admite letras y símbolos. **Confirmar Contraseña**
    debe repetirla.
-5. Haz clic en **Continuar**.
+4. Haz clic en **Continuar**.
 
-> El texto gris de los campos es una **sugerencia**, no un dato cargado. Si dejas **Alias**,
-> **Código de Ingreso** o **Contraseña** vacíos, la aplicación guarda el valor de ejemplo
-> (`admin`, `1234`, `1234`). En un equipo de producción rellénalos antes de continuar.
+> El texto gris de los campos es una **sugerencia**, no un dato cargado (la contraseña
+> muestra su valor por defecto en la etiqueta del campo). Si dejas **Alias** o
+> **Contraseña** vacíos, la aplicación guarda el valor de ejemplo (`admin` y `admin`).
+> En un equipo de producción rellénalos antes de continuar.
 >
-> **Código de Ingreso** y **Contraseña** son datos distintos: para entrar se usa la
-> **contraseña**; el código identifica al empleado dentro del sistema.
+> El **código del empleado** (`EMP-0001`, `EMP-0002`, ...) **no se carga acá**: lo genera la
+> aplicación solo, en orden, al guardar. Lo verás después en Configuración → Empleados.
 
 ![Asistente, paso 2 con los campos del usuario administrador](imagenes/manual-init-02-admin.png)
 
 ## Paso 3 — Usuario vendedor
 
-Los mismos campos del paso anterior, con el **Alias** sugerido `vendedor`: nombre, alias,
-código de ingreso con su confirmación y contraseña con su confirmación. Igual que antes, lo
-que dejes vacío se guarda con el valor de ejemplo (`vendedor`, `1234`, `1234`). **Continuar**
-avanza a los productos.
+Los mismos campos del paso anterior, con el **Alias** sugerido `vendedor`: nombre, alias y
+contraseña con su confirmación. Igual que antes, lo que dejes vacío se guarda con el valor
+de ejemplo (`vendedor` y `vendedor`). **Continuar** avanza a los productos.
 
 > Este es el **único paso con la flecha Atrás** (arriba a la izquierda), que regresa al paso
 > del administrador. En los demás pasos no hay vuelta atrás (ver
@@ -67,16 +67,20 @@ avanza a los productos.
 **Productos Iniciales** — *Agrega los productos con los que iniciará tu negocio*. El paso
 maximiza la ventana y bloquea su tamaño mientras dure.
 
-- **Categorías**: panel izquierdo con el árbol de categorías (en ventana angosta se ve como
-  una fila de chips arriba).
-  - **+** crea una categoría o una subcategoría dentro de la seleccionada.
-  - El **lápiz** renombra en el lugar y el **papelera** pide confirmación.
-  - Si la categoría tiene productos o subcategorías, el diálogo **Eliminar categoría** ofrece
-    **Mover productos y subcategorías a otra categoría** (**Mover y eliminar**) o eliminar
-    igual (**Eliminar de todos modos**); los productos que queden sin categoría deberán
-    recategorizarse después.
-- **Buscar productos...** filtra por código o descripción; el chip **Todas** (o una categoría
-  concreta) acota la lista a esa rama.
+- **Categorías**: lista **plana** en el panel izquierdo (sin árbol): la entrada **Todas**
+  muestra todos los productos y debajo, en una sola fila, cada categoría (en ventana angosta
+  las mismas categorías se eligen con una fila de chips arriba).
+  - El icono **+** al lado del título **Categorías** da de alta una categoría nueva: siempre
+    en el nivel raíz (en este paso no se crean subcategorías). La recién creada queda con el
+    nombre seleccionado para renombrarla en el lugar.
+  - El **lápiz** de cada fila renombra en el mismo lugar (**Enter** confirma, **Escape**
+    cancela) y la **papelera** pide confirmación.
+  - El diálogo **Eliminar categoría** avisa que los productos asignados quedarán **sin
+    categoría** y deberán recategorizarse; las subcategorías que tuviera **no se eliminan**:
+    pasan a quedar en el nivel de arriba. Se descarta con **Cancelar** o se elimina con
+    **Eliminar de todos modos**.
+- **Buscar productos...** filtra por código o descripción; **Todas** (o una categoría
+  concreta) acota la lista a esa categoría y a las que cuelguen de ella.
 - **Nuevo** abre el formulario **Nuevo Producto**: el mismo del
   [Manual de Productos](manual-productos.md) (código, descripción, precios, stock, lotes,
   impuestos y campos de caducidad).

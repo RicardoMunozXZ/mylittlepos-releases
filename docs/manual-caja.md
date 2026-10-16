@@ -1,6 +1,6 @@
 # Manual — Caja
 
-> Corresponde a la versión 1.0.0. La caja no es una pantalla propia: se maneja desde el
+> Corresponde a la versión 1.1.0. La caja no es una pantalla propia: se maneja desde el
 > **Punto de Venta** (menú lateral → **Punto de Venta**).
 
 La caja es el **turno**: el periodo entre el momento en que abres la caja con el efectivo
@@ -45,7 +45,8 @@ El movimiento queda pegado al turno actual y aparece en el corte.
 - **Compras marcadas "Afecta el movimiento de caja"**: salen como egreso al finalizar
   la compra (ver [Manual de Compras](manual-compras.md)).
 - **Devoluciones de esas compras**: vuelven como entrada.
-- **Anulación de una venta**: la venta sale del corte y el stock vuelve.
+- **Anulación de una venta**: la venta deja de sumar en el corte y el stock vuelve; el
+  corte la lista aparte (cantidad y total anulado), sin sumarla.
 
 ## El corte
 
@@ -55,12 +56,14 @@ El corte cierra el turno y muestra el resumen del día.
 2. Se muestra el informe:
    - **Ventas**: cantidad, artículos vendidos y total, desglosado en efectivo, tarjeta
      y transferencia.
+   - **Ventas anuladas** y **Total anulado** (solo si hubo anuladas: quedan como testigo
+     de la merma, sin sumar en ningún total).
    - **Saldo inicial**, **entradas** y **salidas** de caja.
    - **Efectivo que debería haber** (destacado): saldo inicial + ventas en efectivo +
      entradas − salidas. Cuenta el cajón y compara con ese número.
    - El detalle de **movimientos** y de **artículos vendidos** del turno.
-3. Al terminar de revisar, elige **Iniciar nuevo turno** (sigue cobrando) o
-   **Cerrar sesión**.
+3. Al terminar de revisar, elige **Imprimir** (imprime el mismo resumen en papel),
+   **Iniciar nuevo turno** (sigue cobrando) o **Cerrar sesión**.
 
 ![Corte de caja con ventas, movimientos y efectivo esperado](imagenes/manual-pv-07-corte.png)
 
