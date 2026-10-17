@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0",
-  "notas": "Punto de venta completo: caja por turno (apertura, movimientos y cierre), venta con productos, descuentos y promociones. Gestión de inventario con categorías, impuestos y control de caducidades por lote. Clientes, reportes y tablero de indicadores del negocio. Actualizaciones automáticas desde la app (Acerca de → Buscar actualizaciones).",
+  "version": "1.1.0",
+  "notas": "El programa ya no arranca en modo demo: el instalador abre directo el asistente de configuración o el login. Categorías en árbol: jerarquía visible con nodos plegables y filtrado recursivo (al elegir una categoría también se ven las de sus subcategorías). Las promociones por categoría aplican a las subcategorías. Importar y exportar el inventario desde CSV con plantilla de 11 columnas, barra de progreso y opción de indicar si los precios ya incluyen el impuesto. Edición rápida de productos estilo escáner: se escribe el código, se corrige y se guarda sin salir del formulario. Caja: el corte lista las ventas anuladas aparte, se puede imprimir el ticket al vender o desde el corte, y el tamaño de papel se configura (58/80 mm). Contraseña con botón de ojo para mostrar u ocultar en todos los formularios, incluido el login. Corrección importante: los roles y permisos quedaban vacíos en negocios creados con el asistente; las bases existentes se reparan solas al actualizar. Ajustes de usabilidad: código de empleado automático (EMP-NNNN), giro del negocio como lista, formato de dinero en todos los campos monetarios, botones secundarios más claros y textos en español neutro. El guardado del asistente muestra el avance y es bastante más rápido con catálogos grandes.",
   "macos": {
-    "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.0.0/MyLittlePOS-1.0.0.dmg",
-    "sha256": "9d57a14756d70057038a06b8f29ee07777ac1b2921350d64fd94471bcee427bf"
+    "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.0/MyLittlePOS-1.1.0.dmg",
+    "sha256": "65a94d67e37bb0914cc063b14c2a40e2fe746f3d51e479685ec0647a15eae331"
   }
 }
