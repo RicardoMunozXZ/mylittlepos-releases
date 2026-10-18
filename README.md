@@ -12,7 +12,7 @@ Descarga el instalador de tu sistema operativo desde la página de
 | SO | Instalador | Pasos |
 |----|-----------|-------|
 | **Windows** | `MyLittlePOS-<versión>.exe` | Ejecutar el `.exe` y seguir el asistente. |
-| **Windows 7** | `MyLittlePOS-<versión>-w7.exe` | Instalar [VC++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe) primero (x64) o [x86](https://aka.ms/vs/17/release/vc_redist.x86.exe) si tu sistema es de 32 bits, y luego ejecutar el `.exe`. |
+| **Windows 7** | `MyLittlePOS-<versión>-w7.exe` | Requiere **Windows 7 SP1**. Instalar [VC++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe) primero (x64) o [x86](https://aka.ms/vs/17/release/vc_redist.x86.exe) si tu sistema es de 32 bits, y luego ejecutar el `.exe`. |
 | **macOS** | `MyLittlePOS-1.0.0.dmg` | Abrir el `.dmg` y arrastrar MyLittlePOS a **Aplicaciones**. |
 | **Linux** | `MyLittlePOS-<versión>.deb` | `sudo apt install ./MyLittlePOS-<versión>.deb` o doble clic en el `.deb`. |
 
