@@ -3,11 +3,7 @@
   "notas": "El programa ya no arranca en modo demo: el instalador abre directo el asistente de configuración o el login. Categorías en árbol: jerarquía visible con nodos plegables y filtrado recursivo (al elegir una categoría también se ven las de sus subcategorías). Las promociones por categoría aplican a las subcategorías. Importar y exportar el inventario desde CSV con plantilla de 11 columnas, barra de progreso y opción de indicar si los precios ya incluyen el impuesto. Edición rápida de productos estilo escáner: se escribe el código, se corrige y se guarda sin salir del formulario. Caja: el corte lista las ventas anuladas aparte, se puede imprimir el ticket al vender o desde el corte, y el tamaño de papel se configura (58/80 mm). Contraseña con botón de ojo para mostrar u ocultar en todos los formularios, incluido el login. Corrección importante: los roles y permisos quedaban vacíos en negocios creados con el asistente; las bases existentes se reparan solas al actualizar. Ajustes de usabilidad: código de empleado automático (EMP-NNNN), giro del negocio como lista, formato de dinero en todos los campos monetarios, botones secundarios más claros y textos en español neutro. El guardado del asistente muestra el avance y es bastante más rápido con catálogos grandes.",
   "windows": {
     "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.0/MyLittlePOS-1.1.0.exe",
-    "sha256": "e425edc0dc53592b9be53ad97c7a82166997c5e671fe5550895e89f895cba452"
-  },
-  "windows7": {
-    "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.0/MyLittlePOS-1.1.0-w7-x64.exe",
-    "sha256": "a8cf7b76ddb24e1d16bff33eb7abad442cb8461059d1507ff9812c5af25e98a3"
+    "sha256": "acea23f40c3f3fbfd2d7a5a049c25a321dfad1f0dbda4b90dc0608da2123f747"
   },
   "macos": {
     "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.0/MyLittlePOS-1.1.0.dmg",
