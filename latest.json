@@ -5,12 +5,12 @@
     "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.0/MyLittlePOS-1.1.0.exe",
     "sha256": "acea23f40c3f3fbfd2d7a5a049c25a321dfad1f0dbda4b90dc0608da2123f747"
   },
+  "windows7": {
+    "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.0/MyLittlePOS-1.1.0-w7-x64.exe",
+    "sha256": "dd6853e0228fe37cf889a50808e9ecf147664e91ac82eb5198ab0ef537c1a259"
+  },
   "macos": {
     "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.0/MyLittlePOS-1.1.0.dmg",
     "sha256": "00bdb78711d588d9e39533dfc924b63b6965505c114f69b65ca7b03cfbbb2121"
-  },
-  "windows7": {
-    "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.0/MyLittlePOS-1.1.0-w7-x64.exe",
-    "sha256": "c285bdd096b3f046c276b6efbf74825b1e4bece96b4f313b28ded7f6187a697e"
   }
 }
