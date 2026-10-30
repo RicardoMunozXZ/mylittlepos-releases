@@ -2,9 +2,15 @@
   "version": "1.1.1",
   "notas": "Corregido: \"Buscar actualizaciones\" siempre fallaba con el mensaje de verificar la conexión; ahora consulta el servidor y ofrece la nueva versión. Cada equipo recibe el instalador de su procesador (por ejemplo, Mac con chip Apple Silicon o Intel) y la actualización descarga el que corresponde. Windows: el programa ya no falla al iniciar cuando está instalado en Archivos de programa. Linux: los respaldos y las exportaciones de inventario se guardan en tu carpeta de Documentos real, y el aviso cuando no se abre la impresora por cable serie explica cómo solucionarlo.",
   "windows": {
-    "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.1/MyLittlePOS-1.1.1-x64.exe",
-    "sha256": "09ad00342e5f4cf8fb8e34a35f55a93e3924fbb1c65abcbb99465d74ea9f60ac",
-    "arch": "x64"
+    "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.1/MyLittlePOS-1.1.1-arm64.exe",
+    "sha256": "00acd6802df830a6c5cbbb6e9ba4781192167eef54643c3e72e045d17b2e584c",
+    "arch": "arm64",
+    "porArquitectura": {
+      "x64": {
+        "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.1/MyLittlePOS-1.1.1-x64.exe",
+        "sha256": "09ad00342e5f4cf8fb8e34a35f55a93e3924fbb1c65abcbb99465d74ea9f60ac"
+      }
+    }
   },
   "macos": {
     "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.1/MyLittlePOS-1.1.1-arm64.dmg",
