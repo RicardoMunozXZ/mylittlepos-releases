@@ -19,7 +19,7 @@
   },
   "linux": {
     "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.1/MyLittlePOS-1.1.1-linux-x64.deb",
-    "sha256": "edf42569e9de62f057bcd6d311f8058f821c2d5b81629fcf08941a233a4360ad",
+    "sha256": "758c6bbf44881ff3872e3d5e473285f66b4cdd7437e3bf94b90169be9e24fc5c",
     "arch": "x64"
   }
 }
