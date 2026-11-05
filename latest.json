@@ -1,14 +1,19 @@
 {
   "version": "1.1.2",
   "notas": "Corregido: al importar productos desde un archivo CSV, elegir el archivo ya no bloquea el programa ni se cierra. Ahora, si el CSV trae códigos de producto que ya existen, el sistema pregunta si querés reemplazarlos o mantener los que ya tenés.",
+  "windows": {
+    "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.2/MyLittlePOS-1.1.2-windows-x64.exe",
+    "sha256": "29fbd4437bf45503628eabf82ed94d8d08aa027d3fff4ca0d646fdfeb764461b",
+    "arch": "x64"
+  },
   "macos": {
     "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.2/MyLittlePOS-1.1.2-macos-arm64.dmg",
     "sha256": "37d9e9b05d1b3a045544e942ae1093db88fe739040467c5bfd9cf04a9f77157e",
     "arch": "arm64"
   },
-  "windows": {
-    "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.2/MyLittlePOS-1.1.2-windows-x64.exe",
-    "sha256": "29fbd4437bf45503628eabf82ed94d8d08aa027d3fff4ca0d646fdfeb764461b",
+  "linux": {
+    "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.2/MyLittlePOS-1.1.2-linux-x64.deb",
+    "sha256": "43713ed8fb24c0b80bacd1bb4ee453151013a5d14bf256793063b3c3ae5fcadb",
     "arch": "x64"
   }
 }
