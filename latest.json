@@ -1,14 +1,19 @@
 {
   "version": "1.1.3",
   "notas": "En el punto de venta: al escanear un producto se agrega al carrito; las flechas de la búsqueda eligen el producto y Enter lo agrega; y en el cobro el foco arranca en el monto, con Enter para confirmar la venta. Formulario de producto: ahora podés editar o eliminar un lote o un compuesto ya cargado, y guardar ya no vacía el formulario. Navegación con teclado: Enter pasa al siguiente campo y los diálogos enfocan el primer campo solos. Lotes: el lote se escribe en mayúsculas, el año ya trae el siglo cargado y las existencias arrancan prellenadas. Compuestos: cantidades con decimales y autocompletado del nombre. Configuración: las pantallas ahora se desplazan en monitores más chicas, el botón Guardar siempre queda a la vista.",
+  "macos": {
+    "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.3/MyLittlePOS-1.1.3-macos-arm64.dmg",
+    "sha256": "18de6c4c85a8777d3bc14d2f5b5aeebffdf9f147a1d13841520f934af0c6ac9c",
+    "arch": "arm64"
+  },
   "linux": {
     "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.3/MyLittlePOS-1.1.3-linux-x64.deb",
     "sha256": "56409d3896351ec6d475a79a2ce933939bb0a6f35ff3bef8c23114744c2d5753",
     "arch": "x64"
   },
-  "macos": {
-    "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.3/MyLittlePOS-1.1.3-macos-arm64.dmg",
-    "sha256": "18de6c4c85a8777d3bc14d2f5b5aeebffdf9f147a1d13841520f934af0c6ac9c",
-    "arch": "arm64"
+  "windows": {
+    "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.3/MyLittlePOS-1.1.3-windows-x64.exe",
+    "sha256": "c76cac26acc938c0f753760d205c43f7f0d099d06767c6712f192b1f3e3b20d7",
+    "arch": "x64"
   }
 }
