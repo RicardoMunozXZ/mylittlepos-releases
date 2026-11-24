@@ -10,5 +10,10 @@
     "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.5/MyLittlePOS-1.1.5-linux-x64.deb",
     "sha256": "44f5fd5f843b65b6df728229ab5fdc97949aec6fc5714ada0ea4e1cb2a90d918",
     "arch": "x64"
+  },
+  "windows": {
+    "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.5/MyLittlePOS-1.1.5-windows-x64.exe",
+    "sha256": "e69a86b7bc88721e56aea31b388cad5a6186ac29f5bb6894ff27833a1929f5b1",
+    "arch": "x64"
   }
 }
