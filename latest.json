@@ -1,19 +1,9 @@
 {
-  "version": "1.1.4",
-  "notas": "Impuestos: el formulario de producto ahora indica si el precio y el costo ya incluyen el IVA, y el cobro respeta esa marca en lugar de sumarlo otra vez. Configuración: se pueden ajustar el espaciado inicial y final del ticket impreso. Formularios: Enter confirma en compuestos, lotes y login; el autocompletado de compuestos ya no pierde el foco mientras escribís y se navega con las flechas del teclado. Al iniciar sesión, al cargar el inventario y al guardar un producto ahora aparece un indicador de carga.",
+  "version": "1.1.5",
+  "notas": "Punto de venta: se puede cobrar a crédito —con abono opcional al momento de cobrar—, el corte de caja ahora incluye el crédito y las liquidaciones, y desde el panel de Clientes se registra la liquidación total o parcial de la cuenta. Clientes: nuevo diálogo de estado de cuenta con el detalle de los tickets a crédito, las liquidaciones y los productos de cada ticket. Login: opción \"Recordar usuario\" con tarjetas de acceso rápido para iniciar sesión con un solo clic. Reportes: la pestaña de Inventario ahora tiene tres modos (Productos, Stock y Vencimientos), con indicadores del período, valor perdido y exportación; en Ventas apareció el desglose por vendedor con detalle y exportación. Productos: aviso en el formulario cuando el producto ya tuvo lotes vencidos. Arreglos: los impuestos de un producto ahora se guardan correctamente al deseleccionarlos, el interruptor de \"precio y costo ya incluyen impuestos\" quedó en la sección de Impuestos, el corte, el ticket y los reportes muestran los totales con impuestos incluidos, y el ticket imprime correctamente los espacios al inicio y al final.",
   "macos": {
-    "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.4/MyLittlePOS-1.1.4-macos-arm64.dmg",
-    "sha256": "c9df0c68a4f46994c0f0ebaa574b924f86aadc7f787917ed6d378bf5b8007cc0",
+    "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.5/MyLittlePOS-1.1.5-macos-arm64.dmg",
+    "sha256": "abfeaff735a011fa63f8a7c3f459cf9b2d4f3758b5e13e1d91cc65cf5b984b32",
     "arch": "arm64"
-  },
-  "linux": {
-    "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.4/MyLittlePOS-1.1.4-linux-x64.deb",
-    "sha256": "2e14e68453b147ebd507540ed42630c81408483f9c8573168b995ee242be767e",
-    "arch": "x64"
-  },
-  "windows": {
-    "url": "https://github.com/RicardoMunozXZ/mylittlepos-releases/releases/download/v1.1.4/MyLittlePOS-1.1.4-windows-x64.exe",
-    "sha256": "6fa8b93933394ce867911f5be33293bacce3724fdb5a208d8c09ab8d9b1ccaa7",
-    "arch": "x64"
   }
 }
